@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "707941c76b600f8a75e25e23dfe90b87",
+    "packages": [
+        {
+            "name": "brtnetwork/buffer",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BRTNetwork/php-buffer.git",
+                "reference": "e079b678199dde7897d6d273493a45b549d019a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BRTNetwork/php-buffer/zipball/e079b678199dde7897d6d273493a45b549d019a4",
+                "reference": "e079b678199dde7897d6d273493a45b549d019a4",
+                "shasum": ""
+            },
+            "require": {
+                "php-64bit": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BRTNetwork\\Buffer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "BRT Network",
+                    "email": "contact@brt.network"
+                }
+            ],
+            "description": "Toolbox for working with binary and hex data",
+            "keywords": [
+                "Buffer",
+                "binary",
+                "hex",
+                "nodejs-buffer",
+                "php-buffer"
+            ],
+            "support": {
+                "source": "https://github.com/BRTNetwork/php-buffer/tree/1.0.0"
+            },
+            "time": "2021-03-06T13:18:35+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
