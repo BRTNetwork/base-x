@@ -1,5 +1,5 @@
 {
-  "name": "lessmore92/base-x",
+  "name": "brtnetwork/base-x",
   "description": "Encode/decode any base",
   "keywords": [
     "base-x",
@@ -9,7 +9,8 @@
     "crytography",
     "bitcoin",
     "ethereum",
-    "ripple",
+    "brt",
+    "brtnetwork",
     "base",
     "encoding",
     "encode",
@@ -20,18 +21,18 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Lessmore92",
-      "email": "bahramisoft@gmail.com"
+      "name": "BRT Network",
+      "email": "contact@brt.network"
     }
   ],
   "minimum-stability": "dev",
   "require": {
     "php": ">=7",
-    "lessmore92/buffer": "v1.0.0"
+    "brtnetwork/buffer": "v1.0.0"
   },
   "autoload": {
     "psr-4": {
-      "Lessmore92\\BaseX\\": "src/"
+      "BRTNetwork\\BaseX\\": "src/"
     }
   }
 }
